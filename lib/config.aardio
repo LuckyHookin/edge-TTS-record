@@ -1,0 +1,21 @@
+﻿//config 配置文件
+import fsys.config;
+config  = fsys.config("/config/"); 
+//config  = fsys.config( io.appData("/软件作者/应用程序名/") ); 
+
+//不需要序列化的配置名字前请添加下划线
+//在 config 名字空间内部请不要导入其他名字空间
+namespace config {
+	__appName = "应用程序名";
+	__appVersion = "1.0.0.01";
+	__appDescription = "这是一个测试程序";
+	__website = "http://www.aardio.com/";
+}
+
+/**intellisense(config)
+__appName = 应用程序名
+__appVersion = 应用程序内部版本号
+__appDescription = 程序说明
+__website = 官方网站
+? = 配置文件名,\n读写配置并序列化为一个表对象,\n表的成员值可以是支持序列化的普通变量,支持table对象\n配置文件在首次使用时自动加载,退出程序时自动保存\n!fsys_table.
+end intellisense**/

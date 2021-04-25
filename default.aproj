@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<project ver="10" name="edge-TTS-record" libEmbed="true" icon="..." ui="win" output="edge-TTS-record.exe" CompanyName="单位名称" FileDescription="edge-TTS-record" LegalCopyright="Copyright (C) 作者 2021" ProductName="edge-TTS-record" InternalName="edge-TTS-record" FileVersion="0.0.0.1" ProductVersion="0.0.0.1" publishDir="/dist/" dstrip="false">
+	<file name="main.aardio" path="main.aardio" comment="main.aardio"/>
+	<folder name="资源文件" path="res" embed="true"/>
+	<folder name="窗体文件" path="dlg" comment="目录" embed="true"/>
+</project>
