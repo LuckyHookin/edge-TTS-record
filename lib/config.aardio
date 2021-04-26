@@ -6,10 +6,10 @@ config  = fsys.config("/config/");
 //不需要序列化的配置名字前请添加下划线
 //在 config 名字空间内部请不要导入其他名字空间
 namespace config {
-	__appName = "应用程序名";
-	__appVersion = "1.0.0.01";
-	__appDescription = "这是一个测试程序";
-	__website = "http://www.aardio.com/";
+	appName = "edge-TTS-record";
+	appVersion = "0.0.0.04";
+	appDescription = "可以录制 Microsoft Edge 浏览器的语音合成（TTS）语音并输出为 .wav 音频的工具";
+	__website = "https://hookin.fun/";
 }
 
 /**intellisense(config)
