@@ -1,15 +1,26 @@
-//Edge 语音合成
-
+// 使用Edge浏览器
 import chrome.edge; 
 var theApp = chrome.edge.app();
-import console;
+
+// 调用C#程序集 
+import dotNet; 
+var appDomain = dotNet.clr().createAppDomain();
+
+// 加载程序集（内嵌/bin/RecordAudio.dll并内存加载）
+var RecordAudioLibrary = appDomain.loadFile($"/bin/RecordAudio.dll");
+var Record = RecordAudioLibrary.new("RecordAudio.Record");
+
+//import console;
+// 打开文件夹对话框
 import fsys.dlg.dir;
 theApp.external = {
-    startRecord = function(v){ 
-    	console.log("startRecord")
+    startRecord = function(fileDir,maxTime){ 
+    	//console.log("startRecord");
+    	Record.startRecord(fileDir,maxTime);
     }
     stopRecord = function(v){ 
-    	console.log("stopRecord")
+    	//console.log("stopRecord");
+    	Record.stopRecord();
     }
     getFileDir = function(v){ 
     	if(v=="./"){
@@ -29,14 +40,15 @@ theApp.httpHandler["\res\index.html"] = function(response,request){
 
 theApp.indexReady(
 	function(){
-//mainForm.show(false)
 		//theApp.setPos(,,620,680)
 		//mainForm.show()
 	} 
 )
 
 
+
+
 //正式的启动chrome进程
-theApp.start("http://localhost:8080/")
+theApp.start("\res\index.html")
 
 win.loopMessage();

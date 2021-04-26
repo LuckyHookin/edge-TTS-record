@@ -1,6 +1,18 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<project ver="10" name="edge-TTS-record" libEmbed="true" icon="..." ui="win" output="edge-TTS-record.exe" CompanyName="单位名称" FileDescription="edge-TTS-record" LegalCopyright="Copyright (C) 作者 2021" ProductName="edge-TTS-record" InternalName="edge-TTS-record" FileVersion="0.0.0.1" ProductVersion="0.0.0.1" publishDir="/dist/" dstrip="false">
+<project ver="10" name="edge-TTS-record" libEmbed="true" icon="E:\data\20200218100823254_easyicon_net_64.ico" ui="win" output="edge-TTS-record.exe" CompanyName="单位名称" FileDescription="edge-TTS-record" LegalCopyright="Copyright (C) 作者 2021" ProductName="edge-TTS-record" InternalName="edge-TTS-record" FileVersion="0.0.0.1" ProductVersion="0.0.0.1" publishDir="/dist/" dstrip="false" local="false" ignored="false">
 	<file name="main.aardio" path="main.aardio" comment="main.aardio"/>
-	<folder name="资源文件" path="res" embed="true"/>
-	<folder name="窗体文件" path="dlg" comment="目录" embed="true"/>
+	<folder name="资源文件" path="res" embed="true" local="false" ignored="false">
+		<file name="favicon.ico" path="res\favicon.ico" comment="res\favicon.ico"/>
+		<file name="index.html" path="res\index.html" comment="res\index.html"/>
+		<folder name="css" path="res\css" comment="res\css" local="false" embed="false" ignored="false">
+			<file name="chunk-vendors.30cd8522.css" path="res\css\chunk-vendors.30cd8522.css" comment="res\css\chunk-vendors.30cd8522.css"/>
+		</folder>
+		<folder name="js" path="res\js" comment="res\js">
+			<file name="app.5d183bbe.js" path="res\js\app.5d183bbe.js" comment="res\js\app.5d183bbe.js"/>
+			<file name="app.5d183bbe.js.map" path="res\js\app.5d183bbe.js.map" comment="res\js\app.5d183bbe.js.map"/>
+			<file name="chunk-vendors.37ca2be4.js" path="res\js\chunk-vendors.37ca2be4.js" comment="res\js\chunk-vendors.37ca2be4.js"/>
+			<file name="chunk-vendors.37ca2be4.js.map" path="res\js\chunk-vendors.37ca2be4.js.map" comment="res\js\chunk-vendors.37ca2be4.js.map"/>
+		</folder>
+	</folder>
+	<folder name="窗体文件" path="dlg" comment="目录" embed="true" local="false" ignored="false"/>
 </project>
