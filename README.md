@@ -4,7 +4,7 @@
 
 一个可以录制 Microsoft  Edge 浏览器的语音合成（TTS）语音并输出为 `.wav` 音频的（windows平台）工具。
 
-Microsoft Edge 浏览器中有两款非常逼真的**在线（Online）**中文（zh-CN）语音：Xiaoxiao、Yunyang。
+Microsoft Edge 浏览器中有两款非常逼真的**在线**（Online）中文（zh-CN）语音：Xiaoxiao、Yunyang。
 
 用法：
 
@@ -15,7 +15,7 @@ Microsoft Edge 浏览器中有两款非常逼真的**在线（Online）**中文�
 注意：
 
 - 需要 Microsoft Edge 浏览器 Chromium 内核版，一般是 Windows 10 自带的
-- 不管是试听还是录制，使用**在线（Online）**语音都需确保电脑是联网的
+- 不管是试听还是录制，使用**在线**（Online）语音都需确保电脑是联网的
 - 录制是全局的，因避免其他软件声音的干预
 - 在线（Online）语音似乎无法调整音调
 
