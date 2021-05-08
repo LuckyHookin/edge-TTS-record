@@ -23,4 +23,4 @@ Microsoft Edge 浏览器中有两款非常逼真的**在线**（Online）中文�
 
 界面（vue.js）：https://github.com/LuckyHookin/tts-record-html
 
-录制音频模块（C#，NAudio）：https://github.com/LuckyHookin/RecordAudio
+音频录制模块（C#，NAudio）：https://github.com/LuckyHookin/RecordAudio
