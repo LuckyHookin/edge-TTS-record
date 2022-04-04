@@ -1,6 +1,6 @@
 # edge-TTS-record
 
-![edge-TTS-record-img](https://gitee.com/LuckyHookin/pict-all-in-one/raw/master/article/image-20210426165507658.png)
+![edge-TTS-record-img](https://github.com/LuckyHookin/edge-TTS-record/raw/master/demo.png)
 
 一个可以录制 Microsoft  Edge 浏览器的语音合成（TTS）语音并输出为 `.wav` 音频的（windows平台）工具。
 
