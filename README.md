@@ -19,6 +19,13 @@ Microsoft Edge 浏览器中有两款非常逼真的**在线**（Online）中文�
 - 录制是全局的，应避免其他软件声音的干扰
 - 在线（Online）语音似乎无法调整音调
 
+TODO:
+
+- [ ] 路劲配置
+- [ ] 可自定义选择要录制的设备
+- [ ] 软件更新检测
+
+
 相关仓库：
 
 界面（vue.js）：https://github.com/LuckyHookin/tts-record-html
