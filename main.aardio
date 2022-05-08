@@ -30,23 +30,6 @@ theApp.external = {
     	return dir;
     }
 }
-/*
-theApp.httpHandler["\res\index.html"] = function(response,request){
-	
-}
-*/
-
-//调整窗口大小
-
-theApp.indexReady(
-	function(){
-		//theApp.setPos(,,620,680)
-		//mainForm.show()
-	} 
-)
-
-
-
 
 //正式的启动chrome进程
 theApp.start("\res\index.html")
