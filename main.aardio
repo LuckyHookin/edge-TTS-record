@@ -42,4 +42,14 @@ theApp.external = {
 //正式的启动chrome进程
 theApp.start("\res\index.html")
 
+import web.rest.jsonLiteClient;
+var http = web.rest.jsonLiteClient() 
+
+var data = http.api("").get()
+if(data.version!="0.1"){
+	import win.clip;
+	import win;
+	win.msgbox("发现版本更新 V"+data.version+"，更新链接已复制到剪切板。")
+	win.clip.write(data.url)
+}
 win.loopMessage();
