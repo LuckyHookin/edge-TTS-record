@@ -10,7 +10,8 @@ var appDomain = dotNet.clr().createAppDomain();
 var RecordAudioLibrary = appDomain.loadFile($"/bin/RecordAudio.dll");
 var Record = RecordAudioLibrary.new("RecordAudio.Record");
 
-//import console;
+import fsys.ini;
+var ini = fsys.ini("/edge-tts-record-config.ini");
 // 打开文件夹对话框
 import fsys.dlg.dir;
 theApp.external = {
@@ -23,10 +24,17 @@ theApp.external = {
     	Record.stopRecord();
     }
     getFileDir = function(v){ 
+        
     	if(v=="./"){
-    		return io._exedir; 
+    	    var dir = ini.read("save","path");
+        	if(!dir){
+        		dir = io._exedir;
+        	}
+    		return dir; 
     	}
     	var dir = fsys.dlg.dir();
+    	
+    	ini.write("save","path",dir);
     	return dir;
     }
 }
