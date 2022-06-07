@@ -20,6 +20,7 @@ Microsoft Edge 浏览器中有两款非常逼真的**在线**（Online）中文�
 - 不管是试听还是录制，使用**在线**（Online）语音都需确保电脑是联网的
 - 录制是全局的，应避免其他软件声音的干扰
 - 在线（Online）语音似乎无法调整音调
+- 当无法录制时，你可能需要额外安装 .NET Framework: https://www.microsoft.com/zh-CN/download/details.aspx?id=17851
 
 TODO:
 
