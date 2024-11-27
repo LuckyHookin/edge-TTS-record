@@ -1,5 +1,7 @@
 # edge-TTS-record
 
+**⚠⚠请勿由于违法犯罪用途，否则后果自负⚠⚠**
+
 新写的另一个工具发布：https://t.bilibili.com/694237238144270361
 
 ![edge-TTS-record-img](https://github.com/LuckyHookin/edge-TTS-record/raw/master/demo.png)
